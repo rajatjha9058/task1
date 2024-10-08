@@ -1,0 +1,379 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+   background-color: lightpink;
+   justify-content: space-between;
+   padding: 0px 65px 0px 65px;
+}
+#nav-list {
+display: flex;
+justify-content: center;
+text-align: center;
+gap: 45px;
+list-style: none;
+padding: 20px;
+
+
+}
+#nav-list li a{
+     text-decoration: none;
+}
+
+.itam2{
+    margin: 100px;
+}
+
+.button{
+    padding: 10px;
+    border-radius:20px ;
+    background-color: orangered;
+    color: white;
+}
+
+ .image{
+    /* align-items: center;
+    justify-content:center; */
+    font-size: 12px;
+    display: flex;
+    margin: 100px;
+   
+} 
+.itam2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(-10deg); */
+}
+.itam2 img{
+    /* margin: -64px;
+    margin-left: -30px;
+    width: 200px;
+    height: auto;
+    border: 1px solid slateblue;
+    border-radius: 5px; */
+    width: 300px;
+    height: 390px;
+    /* transform: rotate(-10deg); */
+}
+.itam2 .img1{
+    transform: rotate(-3deg);
+}
+.itam2 .img2{
+    position: absolute;
+    text-align: center;
+    width: 270px;
+    height: auto;
+    /* transform: rotate(-10deg); */
+    
+}
+
+.itam3{
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.itam3 img{
+ 
+    /* margin: 80px; */
+    margin-left: 90px;
+    width: 210px;
+    height: 270px;
+    border: 1px solid slateblue;
+    border-radius: 5px;
+
+}
+.itam3 .count{
+    height: auto;
+    width: 70px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 1px 5px;
+    left: 60px;
+    top: 50px;
+    transform: rotate(-45deg);
+}
+.clo{
+    text-decoration: underline;
+    margin-left: 50px;
+    margin-top:px ;
+} 
+
+.list{
+    background-color: bisque;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    /* gap: 260px; */
+}
+#nav-list li {
+    /* background-color:aliceblue; */
+    color:blueviolet
+    
+}
+
+.shirt2 img{
+    width: 270px;
+    height: auto;
+    border-radius: 10px;
+}
+.shirt3 img{
+    width: 270px;
+    height: 320px;
+    border-radius: 10px;
+}
+.shirt4 img{
+    width: 270px;
+    height: auto;
+    border-radius: 10px;
+}
+.all{
+    display: flex;
+text-align: center;
+justify-content: space-around;
+}
+h6{
+    display: flex;
+    justify-content:end ;
+    align-items: end;
+    padding: 10px;
+}
+.itam4{
+    border-radius: 10px;
+    /* background-color: lightpink; */
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.itam4 img{
+    width: 290px;
+    height: 370px;;
+    /* border-radius: 10px; */
+}
+.itam4 .back{
+    transform: rotate(-5deg);
+}
+.itam4 .shirt5-img{
+    position: absolute;
+    text-align: center;
+    width: 270px;
+    height: auto;
+    left: 58px;
+    top: 20px;
+}
+
+
+.itam4 .back2{
+    width: 300px;
+    height: 400px;
+    transform: rotate(-3deg);
+}
+.itam4 .shirt6-img{
+    position: absolute;
+    text-align: center;
+    width: 270px;
+    height: auto;
+    right: 35px;
+    bottom: 10px;
+}
+.itam5{
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.T-shirt1 img{
+    width: 270px;
+    height: auto;
+    /* border-radius: 10px; */
+}
+.T-shirt2 img{
+    width: 270px;
+    height: auto;
+    /* border-radius: 10px; */
+}
+.T-shirt3 img{
+    width: 270px;
+    height: auto;
+    /* border-radius: 10px; */
+}
+.itam6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.short6 img{
+    width: 270px;
+    height: auto;
+    /* border-radius: 10px; */
+}
+.tshirt4 img{
+    width: 270px;
+    height: auto;
+}
+.short3 img{
+    width: 270px;
+    height: 410px;
+}
+
+.itam7{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.font{
+    width:180px;
+    height:auto;
+    padding: 20px;
+    font-weight: 900;
+}
+
+.t-shirt3 img{
+    width: 270px;
+    height: auto;
+}
+.itam8{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tshirt5 img{
+    width: 200px;
+    height: 350px; 
+}
+.tshirt6 img{
+    width: 200px;
+    height: 350px;
+}
+.shirts6 img{
+    width: 200px;
+    height: 350px;
+}
+.tshirt7 img{
+    width: 200px;
+    height: 350px;
+}
+
+.itam9{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tshirt8 img{
+    width: 200px;
+    height: 350px;
+}
+.tshirt9 img{
+    width: 200px;
+    height: 350px;
+}
+.t-shirt4 img{
+    width: 200px;
+    height: 350px; 
+}
+.tshirt10 img{
+    width: 200px;
+    height: 350px;  
+}
+
+
+#foot{
+    background-color: rgb(31, 31, 31);
+  height: 400px;
+  padding: 50px 40px 40px 40px;
+  justify-content: space-between;
+}
+
+.footer{
+  /* display: flex; */
+  background-color: rgb(31, 31, 31);
+  height: 500;
+  padding: 50px 40px 20px 40px;
+  justify-content: space-between;
+}
+
+#connect{
+  display: flex;
+  
+}
+#want{
+  color: white;
+  font-size: 40px;
+  text-align: start;
+}
+#want2{
+  color: white;
+  font-size: 30px;
+  margin-top: 50px;
+
+  margin-left: 550px;
+  /* display: inline; */
+}
+
+.foot2{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  background-color: rgb(31, 31, 31);
+  /* border: 2px solid gray; */
+}
+.silk2{
+  display: flex;
+  list-style: none;
+  gap: 90px;
+  padding: 18px;
+}
+.silk2 li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.header3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:  rgb(31, 31, 31);
+
+}
+.navbar3{
+  background-color:  rgb(31, 31, 31);
+}
+
+#nav-list3{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 30px;
+  padding: 25px;
+}
+
+#nav-list3 li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+
+}
+
+#p2{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
